@@ -9,7 +9,7 @@
         "mobin"
       ],
       "frontend": {
-        "entrypoint": "src/mobin_assets/public/index.js"
+        "entrypoint": "src/mobin_assets/public/index.ts"
       },
       "source": [
         "src/mobin_assets/assets",
