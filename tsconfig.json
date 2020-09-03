@@ -8,5 +8,4 @@
       "jsx": "react",            /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
       "typeRoots": [ "./src/@types", "./node_modules/@types"]
     },
-    "include": ["./src"],
 }
