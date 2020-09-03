@@ -1,6 +1,5 @@
-import mobin from 'ic:canisters/mobin';
-import MobinApp from './Mobin';
+import Mobin from "./Mobin";
+import * as React from "react";
+import { render } from "react-dom";
 
-(async () => {
-  window.alert(await mobin.greet(window.prompt("Enter your name:")));
-})();
+render(React.createElement(Mobin), document.getElementById("app"));

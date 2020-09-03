@@ -4,7 +4,8 @@
   "description": "",
   "keywords": [],
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "prettier": "npx prettier src"
   },
   "devDependencies": {
     "@dfinity/agent": "0.6.4",
